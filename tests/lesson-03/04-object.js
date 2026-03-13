@@ -10,13 +10,13 @@ console.log(car.year);
 let person = {
   name: "Thanh Tu",
   address: {
-    stress: "Nguyen Thien Thuat",
+    street: "Nguyen Thien Thuat",
     city: "Ho Chi Minh",
     country: "Viet Nam",
   },
 };
 console.log(
-  `Dia chi: Duong ${person.address.stress}, Tp. ${person.address.city}, ${person.address.country}`,
+  `Dia chi: Duong ${person.address.street}, Tp. ${person.address.city}, ${person.address.country}`,
 );
 
 //3. In ra điểm môn toán
@@ -29,12 +29,12 @@ let student = {
 };
 console.log(student["grades"]["math"]);
 
-//4. Thay đổi volumn và in ra object mới
+//4. Thay đổi volume và in ra object mới
 let settings = {
-  volumn: 75,
+  volume: 75,
   brightness: 50,
 };
-settings.volumn = 100;
+settings.volume = 100;
 console.log(settings);
 
 //5. Tạo 1 object bike và thêm thuộc tính color vào đó
