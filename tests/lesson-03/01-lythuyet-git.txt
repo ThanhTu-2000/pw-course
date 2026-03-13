@@ -4,4 +4,4 @@ lệnh ' git commit --amend -m"message" ' dùng để sửa đổi commit gần 
 
 lệnh ' git restore --staged <file> ' dùng để đưa <file> từ vùng staging về vùng working directory
 
-lệnh ' git reset HEAD~1 ' dùng để trả về 1 commit cuối cùng được thêm vào repo
+lệnh ' git reset HEAD~1 ' dùng để trả về 1 commit gần nhất và đưa các file trong commit đó về Working directory
