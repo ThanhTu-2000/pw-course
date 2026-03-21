@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test("baitap1", async ({ page }) => {
+test("Fill Info Register Page", async ({ page }) => {
     await test.step("Go to and CLick", async () => {
         // Đi tới trang web
         await page.goto("https://material.playwrightvn.com/");
